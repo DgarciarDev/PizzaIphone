@@ -25,12 +25,6 @@
                                     <segue destination="25s-Bn-QLN" kind="show" id="m9S-DQ-oQa"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Crea tu propia pizza" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sJp-Xi-5sm">
-                                <rect key="frame" x="225" y="238" width="153" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Iphone Pizza" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dl2-CF-7pb">
                                 <rect key="frame" x="180" y="132" width="243" height="64"/>
                                 <constraints>
@@ -38,6 +32,12 @@
                                     <constraint firstAttribute="height" constant="64" id="yHA-Uf-CVL"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="42"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Crea tu propia pizza" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sJp-Xi-5sm">
+                                <rect key="frame" x="225" y="226" width="153" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -53,7 +53,7 @@
                             <constraint firstItem="sJp-Xi-5sm" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="1.5" id="dd4-WT-uoA"/>
                             <constraint firstItem="dl2-CF-7pb" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="68" id="kXa-A2-pWk"/>
                             <constraint firstItem="dl2-CF-7pb" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="1.5" id="nOX-dG-HOQ"/>
-                            <constraint firstItem="sJp-Xi-5sm" firstAttribute="top" secondItem="dl2-CF-7pb" secondAttribute="bottom" constant="42" id="q2f-E3-7m0"/>
+                            <constraint firstItem="sJp-Xi-5sm" firstAttribute="top" secondItem="dl2-CF-7pb" secondAttribute="bottom" constant="30" id="q2f-E3-7m0"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="YLv-92-KOt"/>
