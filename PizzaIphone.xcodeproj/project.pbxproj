@@ -14,6 +14,11 @@
 		65B6FA9B1BCB24BE00493F7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65B6FA991BCB24BE00493F7A /* LaunchScreen.storyboard */; };
 		65B6FAA61BCB24BF00493F7A /* PizzaIphoneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B6FAA51BCB24BF00493F7A /* PizzaIphoneTests.swift */; };
 		65B6FAB11BCB24BF00493F7A /* PizzaIphoneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B6FAB01BCB24BF00493F7A /* PizzaIphoneUITests.swift */; };
+		65B6FABF1BCB4E4600493F7A /* VistaTamanoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B6FABE1BCB4E4600493F7A /* VistaTamanoViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		65B6FAC11BCB58E200493F7A /* vistaTipoMasa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B6FAC01BCB58E200493F7A /* vistaTipoMasa.swift */; settings = {ASSET_TAGS = (); }; };
+		65B6FAC31BCB592500493F7A /* VistaTipoQueso.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B6FAC21BCB592500493F7A /* VistaTipoQueso.swift */; settings = {ASSET_TAGS = (); }; };
+		65B6FAC51BCB594E00493F7A /* VistaIngredientes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B6FAC41BCB594E00493F7A /* VistaIngredientes.swift */; settings = {ASSET_TAGS = (); }; };
+		65B6FAC71BCB596100493F7A /* VistaConfirmacion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B6FAC61BCB596100493F7A /* VistaConfirmacion.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		65B6FAAC1BCB24BF00493F7A /* PizzaIphoneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PizzaIphoneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		65B6FAB01BCB24BF00493F7A /* PizzaIphoneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaIphoneUITests.swift; sourceTree = "<group>"; };
 		65B6FAB21BCB24BF00493F7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65B6FABE1BCB4E4600493F7A /* VistaTamanoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VistaTamanoViewController.swift; sourceTree = "<group>"; };
+		65B6FAC01BCB58E200493F7A /* vistaTipoMasa.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = vistaTipoMasa.swift; sourceTree = "<group>"; };
+		65B6FAC21BCB592500493F7A /* VistaTipoQueso.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VistaTipoQueso.swift; sourceTree = "<group>"; };
+		65B6FAC41BCB594E00493F7A /* VistaIngredientes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VistaIngredientes.swift; sourceTree = "<group>"; };
+		65B6FAC61BCB596100493F7A /* VistaConfirmacion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VistaConfirmacion.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +113,11 @@
 				65B6FA971BCB24BE00493F7A /* Assets.xcassets */,
 				65B6FA991BCB24BE00493F7A /* LaunchScreen.storyboard */,
 				65B6FA9C1BCB24BE00493F7A /* Info.plist */,
+				65B6FABE1BCB4E4600493F7A /* VistaTamanoViewController.swift */,
+				65B6FAC01BCB58E200493F7A /* vistaTipoMasa.swift */,
+				65B6FAC21BCB592500493F7A /* VistaTipoQueso.swift */,
+				65B6FAC41BCB594E00493F7A /* VistaIngredientes.swift */,
+				65B6FAC61BCB596100493F7A /* VistaConfirmacion.swift */,
 			);
 			path = PizzaIphone;
 			sourceTree = "<group>";
@@ -258,8 +273,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65B6FABF1BCB4E4600493F7A /* VistaTamanoViewController.swift in Sources */,
+				65B6FAC71BCB596100493F7A /* VistaConfirmacion.swift in Sources */,
+				65B6FAC31BCB592500493F7A /* VistaTipoQueso.swift in Sources */,
+				65B6FAC51BCB594E00493F7A /* VistaIngredientes.swift in Sources */,
 				65B6FA931BCB24BE00493F7A /* ViewController.swift in Sources */,
 				65B6FA911BCB24BE00493F7A /* AppDelegate.swift in Sources */,
+				65B6FAC11BCB58E200493F7A /* vistaTipoMasa.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
