@@ -504,6 +504,7 @@
 				65B6FAB71BCB24BF00493F7A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		65B6FAB81BCB24BF00493F7A /* Build configuration list for PBXNativeTarget "PizzaIphoneTests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +513,7 @@
 				65B6FABA1BCB24BF00493F7A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		65B6FABB1BCB24BF00493F7A /* Build configuration list for PBXNativeTarget "PizzaIphoneUITests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +522,7 @@
 				65B6FABD1BCB24BF00493F7A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
