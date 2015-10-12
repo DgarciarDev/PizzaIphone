@@ -19,8 +19,7 @@ class VistaConfirmacion: UIViewController {
         lblTipoMasa.text = "Tipo de Masa: " + definirTipoDeMasa(AppDelegate.tipoMasa)
         lblTipoQueso.text = "Tipo de Queso: " + definirTipoDeQueso(AppDelegate.tipoQueso)
         lblIngredientes.text = listarIngredientes()
-        
-        
+                
     }
 
     override func didReceiveMemoryWarning() {

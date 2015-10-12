@@ -31,6 +31,7 @@ class VistaIngredientes: UIViewController {
 
         btnConfirmar.enabled = false
         
+        
     }
 
     override func didReceiveMemoryWarning() {

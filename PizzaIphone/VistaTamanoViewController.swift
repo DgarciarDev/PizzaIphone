@@ -53,6 +53,7 @@ class VistaTamanoViewController: UIViewController {
         
         AppDelegate.tamano = valorSlide
         
+        
     }
     
     
