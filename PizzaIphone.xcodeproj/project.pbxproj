@@ -22,6 +22,27 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		65A429061BE98BDB00A9ADE8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65A429001BE98BD900A9ADE8 /* WatchPizza.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 65A428C01BE98BD900A9ADE8;
+			remoteInfo = WatchPizza;
+		};
+		65A429081BE98BDB00A9ADE8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65A429001BE98BD900A9ADE8 /* WatchPizza.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 65A428D21BE98BD900A9ADE8;
+			remoteInfo = "WatchPizza WatchKit App";
+		};
+		65A4290A1BE98BDB00A9ADE8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65A429001BE98BD900A9ADE8 /* WatchPizza.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 65A428E11BE98BD900A9ADE8;
+			remoteInfo = "WatchPizza WatchKit Extension";
+		};
 		65B6FAA21BCB24BF00493F7A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 65B6FA851BCB24BE00493F7A /* Project object */;
@@ -39,6 +60,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		65A429001BE98BD900A9ADE8 /* WatchPizza.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = WatchPizza.xcodeproj; path = WatchPizza/WatchPizza.xcodeproj; sourceTree = "<group>"; };
 		65B6FA8D1BCB24BE00493F7A /* PizzaIphone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PizzaIphone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65B6FA901BCB24BE00493F7A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		65B6FA921BCB24BE00493F7A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -84,9 +106,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		65A429011BE98BD900A9ADE8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				65A429071BE98BDB00A9ADE8 /* WatchPizza.app */,
+				65A429091BE98BDB00A9ADE8 /* WatchPizza WatchKit App.app */,
+				65A4290B1BE98BDB00A9ADE8 /* WatchPizza WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		65B6FA841BCB24BE00493F7A = {
 			isa = PBXGroup;
 			children = (
+				65A429001BE98BD900A9ADE8 /* WatchPizza.xcodeproj */,
 				65B6FA8F1BCB24BE00493F7A /* PizzaIphone */,
 				65B6FAA41BCB24BF00493F7A /* PizzaIphoneTests */,
 				65B6FAAF1BCB24BF00493F7A /* PizzaIphoneUITests */,
@@ -232,6 +265,12 @@
 			mainGroup = 65B6FA841BCB24BE00493F7A;
 			productRefGroup = 65B6FA8E1BCB24BE00493F7A /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 65A429011BE98BD900A9ADE8 /* Products */;
+					ProjectRef = 65A429001BE98BD900A9ADE8 /* WatchPizza.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				65B6FA8C1BCB24BE00493F7A /* PizzaIphone */,
@@ -240,6 +279,30 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		65A429071BE98BDB00A9ADE8 /* WatchPizza.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = WatchPizza.app;
+			remoteRef = 65A429061BE98BDB00A9ADE8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		65A429091BE98BDB00A9ADE8 /* WatchPizza WatchKit App.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "WatchPizza WatchKit App.app";
+			remoteRef = 65A429081BE98BDB00A9ADE8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		65A4290B1BE98BDB00A9ADE8 /* WatchPizza WatchKit Extension.appex */ = {
+			isa = PBXReferenceProxy;
+			fileType = "wrapper.app-extension";
+			path = "WatchPizza WatchKit Extension.appex";
+			remoteRef = 65A4290A1BE98BDB00A9ADE8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		65B6FA8B1BCB24BE00493F7A /* Resources */ = {

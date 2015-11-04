@@ -327,7 +327,7 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <slider opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minValue="0.0" maxValue="3" translatesAutoresizingMaskIntoConstraints="NO" id="EQD-eW-Y0S">
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minValue="0.0" maxValue="3" translatesAutoresizingMaskIntoConstraints="NO" id="EQD-eW-Y0S">
                                 <rect key="frame" x="192" y="215" width="204" height="31"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="BGm-nG-slS"/>
@@ -347,13 +347,13 @@
                             <constraint firstItem="zmZ-Oe-cLj" firstAttribute="centerX" secondItem="HR5-j9-Ina" secondAttribute="centerX" id="8lL-qO-7vZ"/>
                             <constraint firstItem="dws-J1-gSU" firstAttribute="centerX" secondItem="HR5-j9-Ina" secondAttribute="centerX" constant="-29" id="DC7-gj-fTT"/>
                             <constraint firstItem="pLu-ZE-h4f" firstAttribute="top" secondItem="Rid-P4-UmQ" secondAttribute="bottom" constant="45" id="DYW-1W-HMc"/>
-                            <constraint firstItem="EQD-eW-Y0S" firstAttribute="top" secondItem="zmZ-Oe-cLj" secondAttribute="bottom" constant="9" id="KsX-Bz-sAC"/>
+                            <constraint firstItem="EQD-eW-Y0S" firstAttribute="top" secondItem="zmZ-Oe-cLj" secondAttribute="bottom" constant="8" id="KsX-Bz-sAC"/>
                             <constraint firstItem="zmZ-Oe-cLj" firstAttribute="top" secondItem="4DT-hH-N8e" secondAttribute="bottom" constant="67" id="U6l-da-rUb"/>
                             <constraint firstItem="pLu-ZE-h4f" firstAttribute="centerX" secondItem="HR5-j9-Ina" secondAttribute="centerX" id="Uuq-Th-yeX"/>
                             <constraint firstItem="KBG-LI-e5s" firstAttribute="leading" secondItem="7O2-wn-4Bz" secondAttribute="trailing" constant="70" id="W8h-wu-ian"/>
                             <constraint firstItem="JPP-Nx-RSY" firstAttribute="top" secondItem="KBG-LI-e5s" secondAttribute="bottom" constant="320" id="ceH-Fu-KLs"/>
                             <constraint firstItem="Rid-P4-UmQ" firstAttribute="centerX" secondItem="HR5-j9-Ina" secondAttribute="centerX" constant="-5.5" id="clo-7B-msm"/>
-                            <constraint firstItem="7O2-wn-4Bz" firstAttribute="top" secondItem="EQD-eW-Y0S" secondAttribute="bottom" constant="13" id="f0w-Y1-koK"/>
+                            <constraint firstItem="7O2-wn-4Bz" firstAttribute="top" secondItem="EQD-eW-Y0S" secondAttribute="bottom" constant="14" id="f0w-Y1-koK"/>
                             <constraint firstItem="dws-J1-gSU" firstAttribute="leading" secondItem="7O2-wn-4Bz" secondAttribute="trailing" constant="8" symbolic="YES" id="hjn-kh-I56"/>
                             <constraint firstItem="7O2-wn-4Bz" firstAttribute="firstBaseline" secondItem="dws-J1-gSU" secondAttribute="firstBaseline" id="otg-vb-adb"/>
                             <constraint firstItem="8oO-fR-A8D" firstAttribute="leading" secondItem="dws-J1-gSU" secondAttribute="trailing" constant="73" id="p1w-AN-1cT"/>
